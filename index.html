@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Panel</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@900&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h2><i class="fas fa-user-cog"></i> <br>Admin</h2>
+    </header>
+
+
+
+    <div class="container">
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button class="bluebutton">Add</button>
+
+            </div>
+            
+            
+        </form>
+    </div>
+
+
+    
+    
+    
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-column="First Name">James</td>
+                <td data-column="Last Name">Matman</td>
+                <td data-column="Edit"><a href=""><i class="far fa-edit color"></i> </a></td>
+                <td data-column="Delete"><a href=""><i class="far fa-trash-alt color"></i> </a></td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                
+            </tr>
+        </tbody>
+    </table>
+
+
+    <footer id="footer">
+
+
+
+        Here goes the footer. <br>
+        2020.
+
+    </footer>
+    
+
+</body>
+
+</html>
