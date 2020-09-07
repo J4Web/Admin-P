@@ -1,140 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin-Panel</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@900&family=Sacramento&display=swap"
-        rel="stylesheet" />
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@900&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700&display=swap" rel="stylesheet">
-</head>
-
-<body>
+  <body>
     <header>
-        <h2><i class="fas fa-user-cog"></i> <br />Admin</h2>
+      <h2><i class="fas fa-user-cog"></i> <br />Admin</h2>
     </header>
 
-    <div id="bg">
-        <div class="container">
-            <form action="action_page.php">
-                <div class="row">
-                    <!-- <div class="col-25">
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <!-- <div class="col-25">
                     <label for="Pname">Product Name</label>
                 </div> -->
-                    <div class="col-75">
-                        <input type="text" id="fname" niame="Productname" placeholder="Product name.." />
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- <div class="col-25">
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              niame="Productname"
+              placeholder="Product name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <!-- <div class="col-25">
                     <label for="Price">Product Price</label>
                 </div> -->
-                    <div class="col-75">
-                        <input type="text" id="lname" name="Pprice" placeholder="Product Price.." />
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- <div class="col-25">
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="Pprice"
+              placeholder="Product Price.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <!-- <div class="col-25">
                     <label for="country">Country</label>
                 </div> -->
-                    <div class="col-75">
-                        <select id="country" name="items">
-                            <option value="Default">No. of items..</option>
-                            
+          <div class="col-75">
+            <select id="country" name="items">
+              <option value="Default">No. of items..</option>
 
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- <div class="col-25">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <!-- <div class="col-25">
                     <label for="subject">Subject</label>
                 </div> -->
-                    <div class="col-75">
-                        <textarea id="subject" name="subject" placeholder="Additional info.."
-                            style="height: 200px"></textarea>
-                    </div>
-                </div>
-                <br />
-            </form>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Additional info.."
+              style="height: 200px"
+            ></textarea>
+          </div>
         </div>
+        <br />
+      </form>
+    </div>
 
-
-        <!-- <div>
+    <!-- <div>
             <button class="bluebutton">Add</button>
         </div> -->
 
-        
+    <div class="align">
+      <a href="#" id="btn">Add</a>
+    </div>
 
+    <br />
 
+    <br />
+    <br />
 
-            <div class="align">
-                <a href="#" id="btn" >Add</a>
-
-            </div>
-
-
-
-
-
-
-
-
-            <br />
-
-        
-
-        <br />
-        <br />
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Product Name</th>
-                    <th>Product Price</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td data-column=" Product Name ">Dress</td>
-                    <td data-column="Product Price">$40</td>
-                    <td data-column="Edit">
-                        <a href=""><i class="far fa-edit color"></i> </a>
-                    </td>
-                    <td data-column="Delete">
-                        <a href=""><i class="far fa-trash-alt color"></i> </a>
-                    </td>
-                </tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-            </tbody>
-        </table>
-
-
-        <footer id="footer">
-            Here goes the footer. <br />
-            2020.
-        </footer>
-</body>
-
+    <table>
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Product Price</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-column=" Product Name ">Dress</td>
+          <td data-column="Product Price">$40</td>
+          <td data-column="Edit">
+            <a href=""><i class="far fa-edit color"></i> </a>
+          </td>
+          <td data-column="Delete">
+            <a href=""><i class="far fa-trash-alt color"></i> </a>
+          </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+      </tbody>
+    </table>
+    <!-- 
+    <footer id="footer">
+      Here goes the footer. <br />
+      2020.
+    </footer> -->
+  </body>
 </html>
